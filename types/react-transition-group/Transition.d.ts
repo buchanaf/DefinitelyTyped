@@ -23,7 +23,7 @@ export type EnterHandler<RefElement extends undefined | HTMLElement> = RefHandle
 
 export type ExitHandler<E extends undefined | HTMLElement> = RefHandler<E, (node: HTMLElement) => void, () => void>;
 
-export const UNMOUNTED = 'unmounted';
+export const UNMOUNTED = 'unmounted'; s
 export const EXITED = 'exited';
 export const ENTERING = 'entering';
 export const ENTERED = 'entered';
